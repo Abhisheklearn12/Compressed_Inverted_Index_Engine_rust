@@ -60,7 +60,7 @@ help:
 	@echo "  make run         - Run in release mode"
 	@echo "  make test        - Run unit tests"
 	@echo "  make fmt         - Format code with rustfmt"
-	@echo "  make lint        - Run Clippy for linting"
+	@echo "  make lint        - Run Clippy for linting" # Still need to work on this and solve some linting errors.
 	@echo "  make clean       - Remove build artifacts and example.idx"
 	@echo "  make rebuild     - Clean and rebuild everything"
 	@echo "  make example     - Build and run the example demo"
