@@ -174,7 +174,7 @@ fn decompress_postings(buf: &[u8]) -> io::Result<Vec<u32>> {
 /// After term directory, the postings data is appended. Each posting list is stored as:
 ///   compressed bytes as produced by compress_postings.
 /// The term directory allows seeking to postings offsets without reading everything.
-
+///
 /// In-memory representation while building: map term -> Vec<u32> (docIDs sorted)
 #[derive(Debug, Default)]
 pub struct IndexBuilder {
